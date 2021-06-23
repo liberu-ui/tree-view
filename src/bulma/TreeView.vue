@@ -14,7 +14,7 @@
             </span>
         </p>
         <div class="tree-items no-scrollbars">
-            <items class="parent has-margin-top-large"
+            <items class="parent mt-3"
                 :items="filteredItems"
                 :selection="value"
                 @selected="$emit('input', $event)"/>
