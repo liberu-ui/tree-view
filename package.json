@@ -1,6 +1,6 @@
 {
   "name": "@enso-ui/tree-view",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tree View UI component",
   "main": "bulma/index.js",
   "scripts": {
