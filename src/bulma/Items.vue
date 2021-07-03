@@ -1,8 +1,8 @@
 <template>
     <ul class="items">
-        <item v-for="item in items"
+        <item v-bind="$attrs"
+            v-for="item in items"
             :key="item.id"
-            v-bind="$attrs"
             :item="item"
             v-on="$listeners"/>
     </ul>
