@@ -23,7 +23,7 @@
 </template>
 
 <script>
-
+import { FontAwesomeIcon as Fa } from '@fortawesome/vue-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import Items from './Items.vue';
@@ -33,7 +33,7 @@ library.add(faSearch);
 export default {
     name: 'TreeView',
 
-    components: { Items },
+    components: { Fa, Items },
 
     inject: ['i18n'],
 
