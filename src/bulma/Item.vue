@@ -50,6 +50,8 @@ export default {
         },
     },
 
+    emits: ['selected'],
+
     computed: {
         selected() {
             return this.selection === this.item.id;
