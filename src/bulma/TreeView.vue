@@ -16,14 +16,14 @@
         <div class="tree-items no-scrollbars">
             <items class="parent mt-3"
                 :items="filteredItems"
-                :selection="value"
-                @selected="$emit('input', $event)"/>
+                :selection="modelValue"
+                @selected="$emit('update:modelValue', $event)"/>
         </div>
     </div>
 </template>
 
 <script>
-
+import { FontAwesomeIcon as Fa } from '@fortawesome/vue-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import Items from './Items.vue';
@@ -33,7 +33,7 @@ library.add(faSearch);
 export default {
     name: 'TreeView',
 
-    components: { Items },
+    components: { Fa, Items },
 
     inject: ['i18n'],
 
@@ -42,11 +42,13 @@ export default {
             type: Array,
             required: true,
         },
-        value: {
+        modelValue: {
             type: Number,
             default: null,
         },
     },
+
+    emits: ['update:modelValue'],
 
     data: () => ({
         query: '',
@@ -92,7 +94,7 @@ export default {
             return item.expanded;
         },
         updateFocus() {
-            this.focus(this.items, this.value);
+            this.focus(this.items, this.modelValue);
         },
     },
 };

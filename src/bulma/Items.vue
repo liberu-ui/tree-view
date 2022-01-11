@@ -3,8 +3,7 @@
         <item v-bind="$attrs"
             v-for="item in items"
             :key="item.id"
-            :item="item"
-            v-on="$listeners"/>
+            :item="item"/>
     </ul>
 </template>
 

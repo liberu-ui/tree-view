@@ -26,7 +26,6 @@
         </a>
         <items :items="item.items"
             :selection="selection"
-            v-on="$listeners"
             v-if="item.items && item.expanded"/>
     </li>
 </template>
@@ -50,6 +49,8 @@ export default {
             default: null,
         },
     },
+
+    emits: ['selected'],
 
     computed: {
         selected() {
