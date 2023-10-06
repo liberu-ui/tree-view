@@ -1,6 +1,6 @@
 {
   "name": "@liberu-ui/tree-view",
-  "version": "2.0.10",
+  "version": "2.0.11",
   "description": "Tree View UI component",
   "main": "bulma/index.js",
   "scripts": {
