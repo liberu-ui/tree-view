@@ -1,10 +1,10 @@
 # Tree View
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/tree-view.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/tree-view.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/tree-view.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/tree-view.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/tree-view.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/tree-view.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/tree-view.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/tree-view.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/tree-view.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/tree-view.svg) 
 
 A front-end tree view component
 
