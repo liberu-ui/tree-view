@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import DropdownIndicator from '@enso-ui/dropdown-indicator';
+import DropdownIndicator from '@liberu-ui/dropdown-indicator';
 import Items from './Items.vue';
 
 export default {
