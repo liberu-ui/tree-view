@@ -2,7 +2,7 @@
   "name": "@liberu-ui/tree-view",
   "version": "2.0.12",
   "description": "Tree View UI component",
-  "main": "bulma/index.js",
+  "main": "bulma/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
